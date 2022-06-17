@@ -1,0 +1,1161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@300;400&family=Tiro+Devanagari+Marathi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+body{
+    background: #f3ededfb;
+} 
+
+#nav-section nav{
+    background-color: #050505c9 !important;
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+    height:auto;
+    z-index:9999;
+}
+nav button i{
+    color: #fff;
+}
+nav a img{
+    width:100px;
+    height:50px;
+}
+.nav-colo li a{
+    color: #fff !important;
+    box-sizing: border-box;
+    transition: .3s linear all;
+}
+.nav-colo li a:hover{
+    color: #E15C4C !important;
+}
+.hire-btn{
+    background:#E15C4C;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 7px 14px;
+    transition: .3s ease all;
+}
+.hire-btn:hover{
+    border: 2px solid #E15C4C;
+    border-bottom: none;
+    background-color: #fff;
+    color: #E15C4C !important;
+}
+.navbar button span{
+    width: 20px !important; 
+    height: 30px !important;
+    color:#fff !important;
+    z-index: 1111;
+}
+/* hero section start from here  */
+#hero-section{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/hero-building1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat
+    ;
+}
+.hero-title{
+    width: 400px;
+    height: auto;
+    padding-top: 110px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-weight: 900;
+    font-size: 5rem;
+    
+}
+.hero-title span{
+    background-color: #05A8E7;
+    padding: 3px 10px;
+    color: #fff;
+}
+.hero-content p{
+    letter-spacing: .001rem;
+    font-weight: 400; 
+    font-family: 'Tiro Devanagari Marathi', serif;   
+}
+.hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #E15C4C;
+    font-size: 18px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: .3s ease all;
+}
+.hero-btn:hover{
+    background-color: #fff;
+    color: #E15C4C;
+    border: 2px solid #E15C4C;
+}
+/* owner profile section design start form here  */
+#owner-profile{
+    width: 100%;
+    margin: 80px 0px;
+}
+.profile-image{
+    position: relative;
+}
+.profile-image img{
+    border: 15px solid #ddd;
+    border-radius: 50%;
+    width: 250px;
+    margin: 100px 200px;
+}
+.profile-image a{
+    display: inline-block;
+    position: absolute;
+    /* top: 82px; */
+    left: 323px;
+    bottom: 100px;
+    text-decoration: none;
+    background: #E15C4C;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 10px 0px 7px 14px;
+    cursor: pointer;
+    transition: .3s linear all;
+}
+.profile-image a:hover{
+    border-radius: 25px;
+}
+.profile-content{
+    margin: 40px 0;
+    
+}
+
+.profile-title{
+    width: 500px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px auto;
+}
+.profile-content p{
+    text-align: justify;
+    word-spacing: .1px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+.profile-content a{
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+    background: #E15C4C;
+    border-radius: 20px;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: .3s ease all;
+}
+.profile-content a:hover{
+    background-color: #fff;
+    color: #E15C4C;
+    border: 2px solid #E15C4C;
+
+}
+
+/* chart section design start form here  */
+
+#chart-section{
+    background-image: url(image/short1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+.chart-content{
+    padding-top:120px;
+}
+.chart-title{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-weight: 900;
+    width: 700px;
+    font-size: 4rem;
+} 
+.chart-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.chart-content a{
+    text-decoration: none;
+    color: #fff;
+    background: #E15C4C;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: .3s linear all;
+}
+.chart-content a:hover{
+    border:2px solid #E15C4C;
+    color: #E15C4C;
+    background: #fff;
+}
+
+/* group section design start from here  */
+#group-section{
+    margin: 80px 0;
+}
+.group-head{
+    margin: 50px 0px;
+}
+.group-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+}
+.group-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.group-content{
+    margin: 40px 0;
+}
+.group-img img{
+    width: 200px;
+    
+    display: inline;
+}
+.posite{
+    position: relative;
+}
+.posite .frist{
+    z-index: 12;
+    position: relative;
+    left: 32px;
+    border:2px solid #E15C4C;
+}
+.posite .second{
+    position: absolute;
+    left: 62px;
+    z-index: 0;
+    width: 119px;
+    height: 180px;
+    bottom: -6px;
+    border-radius: 50px 50px 0 0;
+    border:2px solid #E15C4C;
+}
+.group-text {
+    margin: 40px 0px ;
+}
+.group-text h1{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.group-text p{
+    font-size: 15px;
+}
+/* second item  */
+.g-econ{
+    position: relative;
+
+}
+.g-econ img{
+    z-index:0;
+    position: relative;
+    margin-top: -10px;
+}
+.g-econ a {
+    position: absolute;
+    z-index: 2;
+    /* top: 0; */
+    left: 72px;
+    bottom: 31px;
+    text-decoration: none;
+    color: #fff;
+    background: #E15C4C;
+    padding: 4px 13px;
+    border-radius: 0 20px 20px 0;
+}
+.g-econ a:hover{
+    background:tomato;
+    color: #fff;
+}
+/* gorup third item  */
+.third{
+    position: relative;
+    margin-top: -50px;
+}
+.one{
+    position: relative;
+    z-index: 2;
+    width: 175px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid #E15C4C;
+}
+.two{
+    position:
+    absolute;
+    /* top:0; */
+    right: 15px;
+    width: 140px !important;
+    height: 263px;
+    bottom: 0;
+    border-radius: 55px;
+    border: 2px solid #E15C4C;
+}
+
+.group-btn{
+    width: 200px;
+    text-decoration: none;
+    color: #fff;
+    background:#E15C4C;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 40%;
+    padding: 7px 13px;
+    border-radius: 20px;
+    transition: .3s ease all;
+}
+.group-btn:hover{
+    border: 1px solid #E15C4C;
+    background: #fff;
+    color: #E15C4C;
+}
+
+/* milioun member section start form here  */
+#milion-section{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/short1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.milioun{
+    padding:60px 0;
+    margin-bottom: 40px;
+}
+.miloun-text{
+    margin-top: 200px;
+}
+.miloun-text h1,.fa-plus{
+    font-size: 8rem;
+    color: #1795C3;
+}
+
+.miloun-text p{
+    line-height: 1px;
+}
+.milioun-content .make{
+    margin-top:150px;
+    color: #E15C4C;
+    font-size:1.9rem;
+    font-weight: 500;
+}
+.milioun-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow: 2px 2px 9px #111;
+}
+.milioun-content p{
+    line-height: 25px;
+    font-size: 1.4rem;
+    color:rgb(136, 134, 134);
+    font-weight: 500;
+}
+.milioun-btn{
+    text-decoration: none;
+    background: #E15C4C;
+    padding: 9px 22px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: .3s linear all;
+}
+.milioun-btn:hover{
+    border: 1px solid #E15C4C;
+    color: #E15C4C;
+    background: #fff;
+}
+/* owl carousel section design start from here  */
+
+#carousel-section{
+    width: 100%;
+    margin: 40px 0px;
+    padding: 40px 0px;
+    z-index: 0;
+}
+.content img{
+    max-width: 350px;
+    height: 250px;
+    margin-left: 60px;
+    border-radius: 20px;
+    border: 3px solid #05A8E7
+}
+.content p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'robato';
+}
+.fristt,.secondd,.thirdd,.fourthh{
+   
+    margin: 4px 5px;
+    width:47%;
+    
+}
+.content-box {
+    margin-left: 30px;
+    margin-top: -5px;
+}
+.content-box p{
+   
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'robato';
+}
+.content-box h1{
+    text-align: center;
+    width: 150px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.fivethh {
+    margin-bottom: 30px;
+    width: 100% !important;
+}
+.fivethh a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: #E15C4C;
+    padding: 6px;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    border-radius: 20px;
+
+}
+.fivethh a:hover{
+    margin-top: 0px;
+    border: 1px solid #E15C4C;
+    background: #fff;
+    color: #E15C4C;
+}
+
+/* team section design start form here  */
+#team-sectiona{
+    margin: 80px 0px ;
+}
+.team-title{
+    font-family: 'robato';
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-bottom: 0px;
+}
+.team-head p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.team-body{
+    margin-bottom: 60px;
+}
+.team-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    outline: 10px solid gray;
+    position: relative;
+    margin-bottom: 20px;
+}
+.team-content{
+    margin-bottom: 30px;
+}
+.team-content h1{
+    text-transform: uppercase;
+    font-family: 'robato';
+    font-weight: 400;
+    font-size: 20px;
+}
+.team-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.team-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E15C4C;
+    padding: 7px 14px;
+    letter-spacing: 4px;
+    transition: .3s linear all;
+    border-radius: 20px;
+}
+.team-btn:hover{
+    background-color: #fff;
+    color: #E15C4C;
+    border: 3px solid #E15C4C;
+}
+/* service section start form here  */
+.icon i{
+    font-size: 50px;
+    color: #05A8E7;
+}
+.item-content h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.item-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* business seciton design start from here  */
+#business-section{
+    margin: 100px 0px;
+}
+.short img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid #05A8E7;
+}
+.business-content p{
+    width: 300px;
+    margin-left: 60px;
+}
+.business-body{
+
+    padding: 40px 0px;
+}
+.business-section a{
+    width: 200px;
+    display: inline-block;
+}
+.sevice-btn{
+    text-decoration: none;
+    background: #E15C4C;
+    color: #fff;
+    padding: 7px 14px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 10px;
+    border-radius: 20px;
+    letter-spacing: 4px;
+    transition: .3s ease all;
+}
+.sevice-btn:hover{
+    border: 1px solid #E15C4C;
+    background: #fff;
+    color: #E15C4C;
+}
+/* form section  */
+#form-section{
+    background-color: #2698c2;
+    color: #fff;
+    padding: 40px 0px;
+}
+.formco{
+    margin-bottom: 20px;
+}
+.form-btn{
+    width: 150px;
+    height: 40px;
+    border:none;
+    background-color: #ffffff;
+    color: #111;
+    border-radius: 10px;
+    transition: .3s linear all;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.form-btn:hover{
+    background: #2e2929;
+    color: #fff;
+    box-shadow: #111;
+}
+/* footer design start  */
+#footer-section{
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0px;
+}
+.f-div{
+    margin-top: 60px;
+}
+.f-logo img{
+    width: 150px;
+}
+.f-icon{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.f-icon i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.f-icon i:hover{
+    display:inline-block;
+    color: #E15C4C;
+    border-radius: 50%;
+}
+.se-div{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.se-div h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    width:150px;
+    border-bottom: 2px solid #E15C4C;
+}
+.se-div a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-transform: capitalize;
+}
+.se-div a:hover{
+    display:inline-block;
+    border-bottom: 1px solid #E15C4C;
+}
+.f-describ{
+    margin-top: 30px;
+}
+.f-describ span{
+    background: #E15C4C;
+    text-transform: uppercase;
+}
+
+
+
+/* from here we will make this this site responsive  */
+
+@media only screen and (max-width: 991px){
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@300;400&family=Tiro+Devanagari+Marathi&display=swap");
+    .hero-title {
+        width: 354px;
+        height: auto;
+        padding-top: 110px;
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        font-size: 4rem;
+    }
+    .profile-image{
+        position: relative;
+    }
+    .profile-image img {
+        border: 15px solid rgb(221, 221, 221);
+        border-radius: 50%;
+        width: 250px;
+        margin: 89px -5px;
+    }
+    .profile-image a {
+        display: inline-block;
+        position: absolute;
+        left: 92px;
+        bottom: 79px;
+        text-decoration: none;
+        background: rgb(225, 92, 76);
+        color: rgb(255, 255, 255);
+        padding: 4px 10px;
+        border-radius: 10px 0px 7px 14px;
+        cursor: pointer;
+        transition: all 0.3s linear 0s;
+    }
+    .profile-title {
+        width: 364px;
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .chart-title {
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        width: 687px;
+        font-size: 3rem;
+    }
+    .posite {
+        position: relative;
+    }
+    .posite .frist {
+        z-index: 12;
+        position: relative;
+        left: 33px;
+        border: 2px solid #E15C4C;
+    }
+    .group-img img {
+        width: 148px;
+        display: inline;
+    }
+    .posite .second {
+        position: absolute;
+        left: 23px;
+        z-index: 0;
+        width: 119px;
+        height: 180px;
+        bottom: 0px;
+        border-radius: 50px 50px 0 0;
+        border: 2px solid #E15C4C;
+    }
+    .g-econ {
+        position: relative;
+    }
+    .g-econ a {
+        position: absolute;
+        z-index: 2;
+        /* top: 0; */
+        left: 1px;
+        bottom: 31px;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 4px 13px;
+        border-radius: 0 20px 20px 0;
+    }
+    .third {
+        position: relative;
+        margin-top: -50px;
+    }
+    .one {
+        position: relative;
+        z-index: 2;
+        width: 175px;
+        height: 146px;
+        border-radius: 50%;
+        border: 2px solid #E15C4C;
+    }
+    .two {
+        position: absolute;
+        /* top: 0; */
+        right: -35px;
+        width: 119px !important;
+        height: 216px;
+        bottom: 0;
+        border-radius: 55px;
+        border: 2px solid #E15C4C;
+    }
+    .group-btn {
+        width: 200px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: rgb(225, 92, 76);
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 33%;
+        padding: 7px 13px;
+        border-radius: 20px;
+        transition: all 0.3s ease 0s;
+    }
+    .miloun-text h1, .fa-plus {
+        font-size: 4rem;
+        color: rgb(23, 149, 195);
+    }
+    .milioun-content .make {
+        margin-top: 50px;
+        color: rgb(225, 92, 76);
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    .milioun-title {
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        text-shadow: rgb(17 17 17) 2px 2px 9px;
+        width: 100%;
+    }
+    .milioun-content p {
+        line-height: 22px;
+        font-size: 1.1rem;
+        color: rgb(136, 134, 134);
+        font-weight: 500;
+    }
+    .content img {
+        max-width: 260px;
+        height: 216px;
+        margin-left: 218px;
+        border-radius: 20px;
+        border: 3px solid #05A8E7;
+    }
+    .fristt, .secondd, .thirdd, .fourthh {
+        margin: 7px 20px;
+        width: 43%;
+    }
+    .content-box p {
+        margin-left: -70px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'robato';
+    }
+    .fivethh a {
+        width: 65%;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 6px;
+        letter-spacing: .5rem;
+        font-weight: 500;
+        border-radius: 20px;
+        margin-left: 15%;
+    }
+    .business-content p {
+        width: 204px;
+        margin-left: 5px;
+    }
+    .sevice-btn {
+        text-decoration: none;
+        background: #E15C4C;
+        color: #fff;
+        padding: 7px 14px;
+        width: 169px;
+        margin-left: 41%;
+        margin-top: 10px;
+        border-radius: 20px;
+        letter-spacing: 4px;
+        transition: .3s ease all;
+    }
+    .sevice-btn {
+        text-decoration: none;
+        background: #E15C4C;
+        color: #fff;
+        padding: 7px 14px;
+        width: 169px;
+        margin-left: 41%;
+        margin-top: 10px;
+        border-radius: 20px;
+        letter-spacing: 4px;
+        transition: .3s ease all;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .hero-title {
+        width: 354px;
+        height: auto;
+        padding-top: 110px;
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    .profile-title {
+        width: 334px;
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .chart-title {
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        width: 687px;
+        font-size: 2.8rem;
+    }
+    .group-img img {
+        width: 146px;
+        display: inline;
+    }
+    .posite {
+        position: relative;
+    }
+    .posite .frist {
+        z-index: 12;
+        position: relative;
+        left: 35px;
+        border: 2px solid #E15C4C;
+    }
+    .posite .second {
+        position: absolute;
+        left: 22px;
+        z-index: 0;
+        width: 111px;
+        height: 184px;
+        bottom: 0px;
+        border-radius: 50px 50px 0 0;
+        border: 2px solid #E15C4C;
+    }
+    .one {
+        position: relative;
+        z-index: 2;
+        width: 175px;
+        height: 144px;
+        border-radius: 50%;
+        border: 2px solid #E15C4C;
+    }
+    .two {
+        position: absolute;
+        /* top: 0; */
+        right: -1px;
+        width: 98px !important;
+        height: 206px;
+        bottom: 0;
+        border-radius: 55px;
+        border: 2px solid #E15C4C;
+    }
+    .milioun-content .make {
+        margin-top: 0px;
+        color: rgb(225, 92, 76);
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    .form-btn {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #ffffff;
+        color: #111;
+        border-radius: 10px;
+        transition: .3s linear all;
+        margin-left: 4px;
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    .profile-image {
+        position: relative;
+    }
+    .profile-image img {
+        border: 15px solid rgb(221, 221, 221);
+        border-radius: 50%;
+        width: 250px;
+        margin: 36px 77px;
+    }
+    .profile-image a {
+        display: inline-block;
+        position: absolute;
+        left: 192px;
+        bottom: 39px;
+        text-decoration: none;
+        background: rgb(225, 92, 76);
+        color: rgb(255, 255, 255);
+        padding: 4px 10px;
+        border-radius: 10px 0px 7px 14px;
+        cursor: pointer;
+        transition: all 0.3s linear 0s;
+    }
+    .chart-title {
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        width: 451px;
+        font-size: 2.6rem;
+    }
+    .posite {
+        position: relative;
+    }
+    .posite .frist {
+        z-index: 12;
+        position: relative;
+        left: 23px;
+        border: 2px solid #E15C4C;
+    }
+    .posite .second {
+        position: absolute;
+        left: 123px;
+        z-index: 0;
+        width: 111px;
+        height: 184px;
+        bottom: 0px;
+        border-radius: 50px 50px 0 0;
+        border: 2px solid #E15C4C;
+    }
+    .g-econ {
+        position: relative;
+    }
+    .g-econ a {
+        position: absolute;
+        z-index: 2;
+        /* top: 0; */
+        left: 173px;
+        bottom: 31px;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 4px 13px;
+        border-radius: 0 20px 20px 0;
+    }
+    .third {
+        position: relative;
+        margin-top: -50px;
+    }
+    .one {
+        position: relative;
+        z-index: 2;
+        width: 187px;
+        height: 149px;
+        border-radius: 50%;
+        border: 2px solid #E15C4C;
+    }
+    .two {
+        position: absolute;
+        top: -41px;
+        right: 97px;
+        width: 136px !important;
+        height: 196px;
+        bottom: 0;
+        border-radius: 55px;
+        border: 2px solid #E15C4C;
+    }
+    .miloun-text {
+        margin-top: 50px;
+    }
+    .milioun-content .make {
+        margin-top: 17px;
+        color: rgb(225, 92, 76);
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    .milioun-title {
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        text-shadow: rgb(17 17 17) 2px 2px 9px;
+        width: 500px;
+    }
+    .milioun-content p {
+        line-height: 22px;
+        font-size: 1rem;
+        color: rgb(136, 134, 134);
+        font-weight: 500;
+    }
+    .milioun-content p {
+        line-height: 22px;
+        font-size: 1rem;
+        color: rgb(136, 134, 134);
+        font-weight: 500;
+    }
+    .fristt, .secondd, .thirdd, .fourthh {
+        margin: 7px 6px;
+        width: 43%;
+    }
+    .content-box h1 {
+        text-align: center;
+        width: 150px;
+        margin-left: 10%;
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    .fivethh a {
+        width: 77%;
+        margin-left: 10%;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 6px;
+        letter-spacing: .5rem;
+        font-weight: 500;
+        border-radius: 20px;
+    }
+    .business-content p {
+        width: 385px;
+        margin-left: 68px;
+    }
+    .form-btn {
+        width: 200px;
+        height: 40px;
+        border: none;
+        background-color: #ffffff;
+        color: #111;
+        border-radius: 10px;
+        transition: .3s linear all;
+        margin-left: 29%;
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .chart-title {
+        font-family: "Tiro Devanagari Marathi", serif;
+        font-weight: 900;
+        width: 287px;
+        font-size: 2.3rem;
+    }
+    .posite {
+        position: relative;
+    }
+    .g-econ {
+        position: relative;
+    }
+    .g-econ a {
+        position: absolute;
+        z-index: 2;
+        /* top: 0; */
+        left: 113px;
+        bottom: 31px;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 4px 13px;
+        border-radius: 0 20px 20px 0;
+    }
+    .miloun-text {
+        margin-top: 0px;
+    }
+    .milioun-title {
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 1.7rem;
+        text-shadow: rgb(17 17 17) 2px 2px 9px;
+        width: 400px;
+    }
+    .content img {
+        max-width: 260px;
+        height: 216px;
+        margin-left: 75px;
+        border-radius: 20px;
+        border: 3px solid #05A8E7;
+    }
+    .fivethh a {
+        width: 77%;
+        margin-left: 15%;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background: #E15C4C;
+        padding: 6px;
+        letter-spacing: .5rem;
+        font-weight: 500;
+        border-radius: 20px;
+    }
+    .business-content p {
+        width: 353px;
+        margin-left: 30px;
+    }
+    .sevice-btn {
+        text-decoration: none;
+        background: #E15C4C;
+        color: #fff;
+        padding: 7px 14px;
+        width: 169px;
+        margin-left: 29%;
+        margin-top: 10px;
+        border-radius: 20px;
+        letter-spacing: 4px;
+        transition: .3s ease all;
+    }
+
+}
+/* some fonts name here  */
